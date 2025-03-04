@@ -2,7 +2,7 @@ FROM docker.io/library/debian:12
 
 WORKDIR /opt
 
-COPY . /root
+COPY . /root/
 #### get necessary packages
 RUN apt-get -y update && apt-get install -y wget build-essential zlib1g zlib1g-dev
 
