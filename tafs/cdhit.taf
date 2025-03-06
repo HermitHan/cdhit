@@ -26,5 +26,5 @@ ARGS
     <out>
         # output
 RUN
-    <container:taf-cdhit:docker.io/taffish/cdhit:4.8.1>
+    <container:taf-cdhit-v4.8.1:docker.io/taffish/cdhit:4.8.1>
         ::*MAIN*::
